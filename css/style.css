@@ -141,6 +141,13 @@ h5 {  /*nom des entreprise/école de formation*/
     padding-bottom: 5px;
 }
 
+a:hover {
+    background-color: #2a5978;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
 /*responsive : en dessous de 768px*/
 
 @media screen and (max-width: 768px) {
@@ -195,6 +202,8 @@ h5 {  /*nom des entreprise/école de formation*/
     .description {margin-top: 10px;}
 
     h3 {text-align: center;}
+
+    address { font-size: 1em;}
 
   }
 
