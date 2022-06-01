@@ -37,17 +37,7 @@ h2 {
 .pdf i {
     font-size: 1.5em;
 }
-.close {
-    border-radius: 60%;
-    border : 1px solid #2a5978;
-    background-color: #dfe6eb;
-    font-weight: bold;
-}
-.close:hover {
-    transition-duration: 0.5s;
-    background-color: #2a5978; 
-    color: white;
-}
+
 .pdf a:hover {
     transition-duration: 0.5s;
     background-color: rgba(42, 89, 120, 0);;
@@ -80,7 +70,7 @@ h3 {
 
 .position {
     position: sticky;
-    top: 100px;
+    top: 80px;
 }
 
 .photo {
@@ -176,7 +166,12 @@ h5 {  /*nom des entreprise/école de formation*/
     margin-left: 15px;
     padding-bottom: 5px;
 }
-
+.ecole { 
+    margin-left: 14px;
+    margin-top : -10px;
+    font-size: 0.9em;
+    font-style: italic;
+}
 a:hover {
     transition-duration: 0.5s;
     background-color: rgba(42, 89, 120, 0.6);
@@ -186,6 +181,8 @@ a:hover {
 }
 
 .invisible {display: none;}
+
+.mobile {display:none;}
 
 /*responsive : en dessous de 768px*/
 
@@ -242,7 +239,7 @@ a:hover {
 
     h3 {text-align: center;}
 
-    .pdf a {color : rgb(25, 41, 131);}
+    .mobile {display:block;}
 
   }
 
