@@ -38,6 +38,9 @@ h2 {
     font-size: 1.5em;
 }
 
+i {
+    margin-right: 6px;
+}
 .pdf a:hover {
     transition-duration: 0.5s;
     background-color: rgba(42, 89, 120, 0);;
@@ -165,7 +168,6 @@ h5 {  /*nom des entreprise/école de formation*/
     margin-left: 14px;
     margin-top : -10px;
     font-size: 0.9em;
-    font-style: italic;
 }
 a:hover {
     transition-duration: 0.5s;
