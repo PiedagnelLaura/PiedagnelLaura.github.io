@@ -181,6 +181,12 @@ a:hover {
 
 .mobile {display:none;}
 
+/*responsive : en dessous de 1100px*/
+
+@media screen and (max-width: 1100px) {
+    .photo { display: none;}
+}
+
 /*responsive : en dessous de 768px*/
 
 @media screen and (max-width: 768px) {
